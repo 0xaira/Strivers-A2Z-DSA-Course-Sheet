@@ -23,6 +23,7 @@ public:
         return max;
     }
 };
+
 int main()
 {
     int t;
