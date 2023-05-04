@@ -1,11 +1,13 @@
-//{ Driver Code Starts
-//Initial Template for C++
+// Find the largest element in an array
 
 #include <bits/stdc++.h>
 using namespace std;
 
-// } Driver Code Ends
-//User function Template for C++
+// Brute Force Approach: Use sorting to sort the array in descending order and return the first element of the array.
+// Time Complexity: O(nlogn)+ O(1) = O(nlogn)
+
+// Optimal Approach: Traverse the array and keep track of the maximum element.
+// Time Complexity: O(n) + O(1) = O(n)
 
 class Solution
 {
@@ -21,9 +23,6 @@ public:
         return max;
     }
 };
-
-
-//{ Driver Code Starts.
 int main()
 {
     int t;
@@ -42,5 +41,3 @@ int main()
     }
     return 0;
 }
-
-// } Driver Code Ends
